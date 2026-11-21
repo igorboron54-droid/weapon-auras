@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "weaponauras",
+  "version": "${version}",
+  "name": "Weapon Auras",
+  "description": "Unique particle auras on enchanted weapons, held or dropped.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.weaponauras.WeaponAurasClient"] },
+  "depends": { "fabricloader": ">=0.19.5", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*" }
+}
